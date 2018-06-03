@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: none
 title: Buttons
 permalink: /Buttoms/
 ---
@@ -7,7 +7,7 @@ permalink: /Buttoms/
 <h1 class="page-title">{{ page.title | escape }}</h1>
 
 <div class="section">
-    <h5>Raised</h5> 
+    <h5>RaisedD</h5> 
 
     <div class="row">
           <div class="col s12">
