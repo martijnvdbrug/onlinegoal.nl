@@ -4,7 +4,8 @@ email: martijn@onlinegoal.nl
 description: > # this means to ignore newlines until "baseurl:"
   Onlinegoal.nl website based on Starter Materialize Templates for Jekyll
 
+exclude: ['CODE_OF_CONDUCT.md', '.idea']
+include: ['_pages']
+
 sass:
     style: compressed
-
-include: ['_pages']

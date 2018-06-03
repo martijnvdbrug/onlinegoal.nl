@@ -1,6 +1,5 @@
 ---
-layout: none
-title: Buttons
+layout: page
 permalink: /Buttoms/
 ---
 
