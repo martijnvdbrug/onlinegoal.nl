@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /feedback-tuinontwerp-roeland-noteboom/
+permalink: /kaartje-tuinontwerp-roeland-noteboom/
 ---
 
 <h1 class="page-title">Tuinontwerp Roeland Noteboom</h1>
