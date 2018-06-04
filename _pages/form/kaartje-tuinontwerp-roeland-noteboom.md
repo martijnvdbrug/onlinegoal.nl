@@ -1,8 +1,10 @@
 ---
 layout: page
-permalink: /kaartje-tuinontwerp-roeland-noteboom/
+permalink: /feedback-tuinontwerp-roeland-noteboom/
 ---
 
-<h1 class="page-title">Visitekaartje - Tuinontwerp Roeland Noteboom</h1>
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd9gSr2Zt3ZuPl_coXoPE6Ssi-nSZvbKQKP9m1-Tj9JX8DsTw/viewform?embedded=true" width="1200" height="700" frameborder="0" marginheight="0" marginwidth="0">Bezig met laden...</iframe>
+<script>window.onload = function() {
+            // similar behavior as clicking on a link
+            window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSePixuQouQ9isl6JAdZV0Fs0IiXh4EI05HqRWPWy-7kI1Greg/viewform?usp=sf_link";
+        }
+</script>
