@@ -2,3 +2,14 @@
   height: 10%;
   width: 10%;
 }
+
+
+/* prevent h1 overflow with smaller devices */
+h1 {
+  font-size: 8vw;
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+}
