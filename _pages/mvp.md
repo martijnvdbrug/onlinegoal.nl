@@ -5,6 +5,9 @@ permalink: /minimum-viable-product
 ---
 
 
-<h1> HOI </h1>
+<h1> Minimum Viable Product </h1>
 
-<p>Hallo Niels </p>
+  <p class="light">Ok, je proposities zijn getest! Je bent klaar om te lanceren. Maar hoe doe je dat het beste? Wij zijn er van overtuigd dat dit het beste werkt door te starten met een product en vanaf daar te gaan testen. Je klanten zijn immers leidend in het succes van je bedrijf! Door constant te monitoren hoe je product wordt gebruikt komen we tot de beste versie van het product.
+
+
+<p>Benieuwd naar hoe dit er uit ziet? www.toia.nl is een voorbeeld van hoe dit in zijn werk is gegaan. </p>
