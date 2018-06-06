@@ -16,7 +16,8 @@ permalink: /minimum-viable-product
 <br>
 <br>
 
-<p>Benieuwd naar hoe dit er uit ziet? <a href="https://www.toia.nl" target=">www.toia.nl</a> is een voorbeeld van hoe dit in zijn werk is gegaan.</p>
-
+<p>Benieuwd naar hoe dit er uit ziet?</p>
+<a href="https://www.toia.nl" target=">www.toia.nl"</a>
+<p>Is een voorbeeld van hoe dit in zijn werk gaat.
 <br>
 <br>
