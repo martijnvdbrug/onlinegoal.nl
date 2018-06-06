@@ -5,7 +5,7 @@ permalink: /minimum-viable-product
 ---
 
 
-# Minimum Viable Product
+<h1> Minimum Viable Product </h1>
 
 <br>
 
