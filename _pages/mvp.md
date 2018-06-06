@@ -17,6 +17,6 @@ permalink: /minimum-viable-product
 <br>
 
 <p>Benieuwd naar hoe dit er uit ziet?
-<A HREF="http://www.toia.nl"target="_blank">www.toia.nl</A> is een voorbeeld van hoe dit in zijn werk is gegaan.
+<A HREF="http://www.toia.nl_blank">www.toia.nl</A> is een voorbeeld van hoe dit in zijn werk is gegaan.
 <br>
 <br>
