@@ -1,8 +1,28 @@
-.size-50 {
-  height: 10%;
-  width: 10%;
+@mixin size($size) {
+  width: $size;
+  height: $size;
 }
 
+.size-10 {
+  @include size(10%);
+}
+.size-20 {
+  @include size(20%);
+}
+.size-30 {
+  @include size(30%);
+}
+.size-40 {
+  @include size(40%);
+}
+.size-50 {
+  @include size(50%);
+}
+
+.footer-photo {
+  @include size(30%);
+  margin: 10px;
+}
 
 /* prevent h1 overflow with smaller devices */
 h1 {
