@@ -11,5 +11,3 @@ include: ['_pages']
 sass:
     style: compressed
 
-plugins:
-  - jekyll-sitemap
