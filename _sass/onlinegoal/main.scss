@@ -1,0 +1,17 @@
+@import "sizes";
+@import "sticky-footer";
+
+.footer-photo {
+  @include size(30%);
+  margin: 10px;
+}
+
+/* prevent h1 overflow with smaller devices */
+h1 {
+  font-size: 8vw;
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+}

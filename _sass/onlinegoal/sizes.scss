@@ -18,18 +18,15 @@
 .size-50 {
   @include size(50%);
 }
-
-.footer-photo {
-  @include size(30%);
-  margin: 10px;
+.size-60 {
+  @include size(60%);
 }
-
-/* prevent h1 overflow with smaller devices */
-h1 {
-  font-size: 8vw;
+.size-70 {
+  @include size(70%);
 }
-@media screen and (min-width: 1200px) {
-  h1 {
-    font-size: 4.2rem;
-  }
+.size-80 {
+  @include size(80%);
+}
+.size-90 {
+  @include size(90%);
 }
