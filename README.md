@@ -2,6 +2,8 @@
 Jekyll source for onlinegoal.nl based on 
 [Jekyll Materialize starter template](https://github.com/macrod68/jekyll-materialize-starter-template) by Marco Damiani   
 
+## plugins
+`gem install jekyll-sitemap`
 
 ## Custom includes
 Custom html includes used on this site
