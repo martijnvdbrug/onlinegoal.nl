@@ -1,6 +1,12 @@
 @import "sizes";
 @import "sticky-footer";
 
+/* prevent blue link on OSX for phonenumber */
+a[href^="tel"] {
+  color: inherit; /* Inherit text color of parent element. */
+  text-decoration: none; /* Remove underline. */
+  /* Additional css `propery: value;` pairs here */
+}
 
 /* prevent h1 overflow with smaller devices */
 h1 {
