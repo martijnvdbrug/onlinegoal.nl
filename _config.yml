@@ -4,6 +4,7 @@ email: martijn@onlinegoal.nl
 description: > # this means to ignore newlines until "baseurl:"
   Online doeltreffendheid bereik je door dat te doen wat je klant wilt: engagement door het maken van content waarbij de gebruiker centraal staat. Wij helpen je scoren online.
 
+baseUrl: onlinegoal.nl
 exclude: ['CODE_OF_CONDUCT.md', '.idea']
 include: ['_pages']
 

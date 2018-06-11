@@ -13,7 +13,14 @@
                     {% endif %}
                 {% endfor %}
             {% endif %}
-            <li><div style="margin-top: -15px;">{% include cta.html href="/proposities-testen" text="Get in touch" icon="mail_outline" %}</div></li>
+
+            <!-- Contact modal -->
+            <li>
+              <a href="#contact-modal" class="orange waves-effect waves-light btn modal-trigger">
+                <i class="material-icons right">mail_outline</i>
+                Get in touch
+              </a>
+            </li>
           </ul>
 
           <ul id="nav-mobile" class="side-nav">
@@ -26,8 +33,56 @@
                     {% endif %}
                 {% endfor %}
             {% endif %}
+
+            <li>
+              <a href="#contact-modal" class="orange waves-effect waves-light btn modal-trigger">
+                <i class="material-icons right">mail_outline</i>
+                Get in touch
+              </a>
+            </li>
+
           </ul>
 
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
 </nav>
+
+<!-- Modal Structure -->
+<div id="contact-modal" class="modal">
+  <form action="https://formspree.io/niels@onlinegoal.nl" method="POST">
+  <div class="modal-content">
+
+    <div class="col s12 m7">
+      <div class="card horizontal">
+        <div class="card-stacked">
+          <div class="card-content">
+            <p><i class="tiny material-icons light-blue-text">local_phone</i>&nbsp;&nbsp;&nbsp; {{ site.data.contact.phone }}</p>
+            <p><i class="tiny material-icons light-blue-text">email</i>&nbsp;&nbsp;&nbsp; {{ site.data.contact.email }}</p>
+            <p><i class="tiny material-icons light-blue-text">arrow_forward</i>&nbsp;&nbsp;&nbsp; {{ site.data.contact.website }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <h6>Of stuur ons een bericht via onderstaand formulier</h6>
+    <br>
+    <div class="row">
+      <div class="input-field col s12">
+        <i class="material-icons prefix light-blue-text">email_outline</i>
+        <input id="email" name="_replyto" type="email">
+        <label for="email">Emailadres</label>
+      </div>
+      <div class="input-field col s12">
+        <i class="material-icons prefix light-blue-text">chat</i>
+        <input name="name" id="message" type="text" >
+        <label for="message">Bericht</label>
+      </div>
+    </div>
+
+  </div>
+  <div class="modal-footer">
+    <button class="orange btn waves-effect waves-light" type="submit" name="action">Verzend</button>
+  </div>
+  </form>
+</div>
