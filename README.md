@@ -4,6 +4,7 @@ Jekyll source for onlinegoal.nl based on
 
 ## plugins
 `gem install jekyll-sitemap`
+`gem install jekyll-seo-tag`
 
 ## Custom includes
 Custom html includes used on this site
