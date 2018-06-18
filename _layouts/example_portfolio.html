@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,20 +16,20 @@
   <script src="https://use.fontawesome.com/266c035ce0.js"></script>
   <script src="/assets/example/portfolio/app.js"></script>
   <script>
-    $( document ).ready(function() {
+    $(document).ready(function () {
       var url = new URL(window.location.href);
       var fullname = url.searchParams.get("van");
       var firstname = fullname.split(' ')[0];
       var nospace = fullname.replace(/ /g, '').toLocaleLowerCase();
       console.log(firstname);
       console.log(nospace);
-      $( ".fullname" ).each(function(i, obj) {
+      $(".fullname").each(function (i, obj) {
         obj.innerHTML = fullname;
       });
-      $( ".firstname" ).each(function(i, obj) {
+      $(".firstname").each(function (i, obj) {
         obj.innerHTML = firstname;
       });
-      $( ".nospace" ).each(function(i, obj) {
+      $(".nospace").each(function (i, obj) {
         obj.innerHTML = nospace;
       });
     });
@@ -68,7 +67,7 @@
 <header class="container-fluid container-top">
   <div class="row">
     <col-md-12>
-      <img src="/assets/website-maken.png" class="container-top-image img-circle m-x-auto" alt="Your Name">
+      <img src="/assets/example/portfolio/profile.jpeg" class="container-top-image img-circle m-x-auto" alt="Your Name">
       <h1 class="container-top-name">
         <span class="fullname"></span>
       </h1>
@@ -86,15 +85,15 @@
     </div>
     <div class="col-sm-12 col-md-6">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce est diam, porttitor et arcu at, vehicula
-        sodales libero. Sed fermentum luctus dapibus. Proin lobortis ipsum eu lobortis luctus.
+        Hoi, mijn naam is <span class="firstname"></span> en ik ben artiest. Hieronder kun je mijn werken bekijken.
+        <br>
+        Als ik iets voor je kan betekenen, neem dan contact met me op!
       </p>
     </div>
     <div class="col-sm-12 col-md-6">
       <p>
-        Donec elementum orci dui, eu euismod sem pellentesque sit amet. Nunc tempus consequat urna, vel
-        consectetur odio mattis id. Nam nisi sem, tincidunt id risus et, auctor lacinia nulla. In hac habitasse
-        platea dictumst.
+        Lijkt deze website je wat? Vanaf <b>€750,-</b> maakt Onlinegoal.nl portfolio websites! <br> Neem contact op met
+        <a href="/">onlinegoal.nl</a> voor meer informatie.
       </p>
     </div>
   </div>
@@ -121,7 +120,7 @@
       </div>
       <div class="col-md-6 col-sm-12 container-contacts-phone" style="font-size: 18px;">
         <i class="fa fa-envelope" aria-hidden="true"></i>
-          <span class="firstname"></span>@<span class="nospace"></span>.com
+        <span class="firstname"></span>@<span class="nospace"></span>.com
       </div>
       <div class="col-md-6 col-sm-12 container-contacts-phone">
         <i class="fa fa-phone" aria-hidden="true"></i>
@@ -136,7 +135,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-       <a href="https://onlinegoal.nl">Onlinegoal.nl</a>
+        <a href="https://onlinegoal.nl">Onlinegoal.nl</a>
       </div>
     </div>
   </div>
