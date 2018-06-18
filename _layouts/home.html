@@ -49,11 +49,11 @@ layout: default
       <div class="col s12 m4">
         <div class="icon-block">
           <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-          <h5 class="center">Proposities testen</h5>
+          <h5 class="center">Test je idee</h5>
 
           <p class="light">Ok, je hebt een idee maar hoe weet je welk idee je moet gaan uitwerken? Wij zetten voor jou
-            een aantal landingspaginas op om jouw proposities te testen
-            en vervolgens de beste propositie uit te werken.</p>
+            een aantal landingspaginas op om jouw ideeën te testen
+            en vervolgens het beste idee uit te werken.</p>
 
 
         </div>
@@ -78,8 +78,12 @@ layout: default
           <h5 class="center">Website</h5>
 
           <p class="light">Je kunt bij ons ook gewoon een website laten maken, bijvoorbeeld voor je eigen bedrijf of
-            nieuwe project. Een website begint bij €899. Niet tevreden over je huidige resultaten in Google? Wij stellen
-            een SEO plan voor je op.</p>
+            nieuwe project. Een website begint bij €899.</p>
+          <p class="light"><a href="/website-voorbeelden"> Bekijk hier </a> een aantal voorbeelden. Niet tevreden over
+            je huidige
+            resultaten in Google? Wij stellen
+            een SEO plan voor je op.
+          </p>
 
 
         </div>
@@ -90,64 +94,25 @@ layout: default
 
 </div>
 
-<!-- Website example slider -->
-<div class="container">
-  <div class="section">
-
-    <br>
-    <br>
-
-    <h4 class="center-align">Website voorbeelden</h4>
-
-    <div class="slider">
-      <ul class="slides">
-        {% for example in site.data.website_examples %}
-        <li>
-          <img src="{{ example.img }}"> <!-- random image -->
-          <div class="caption left-align">
-            <div class="row">
-              <div class="col s12 m6">
-                <div class="card grey lighten-5">
-                  <div class="card-content">
-                    <span class="card-title black-text"> {{ example.title }} </span>
-                    <p class="black-text"> {{ example.text }} </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+<!-- Latest posts
+<div style="background: #ddd">
+  <div class="container last-post">
+    <section>
+      <h5>Latest Post</h5>
+      <ul class="collection">
+        {% for post in site.posts %}
+        <li class="collection-item avatar">
+          {% assign date_format = site.minima.date_format | default: "%m/%d" %}
+          <div class="date-post">{{ post.date | date: date_format }}</div>
+          <span class="title"><a class="post-link"
+                                 href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
+          <p>
+            {{ post.content | truncatewords: 10 }}
+          </p>
+          <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
         </li>
         {% endfor %}
-
       </ul>
-
-    </div>
+    </section>
   </div>
-
-  <!-- Latest posts
-  <div style="background: #ddd">
-    <div class="container last-post">
-      <section>
-        <h5>Latest Post</h5>
-        <ul class="collection">
-          {% for post in site.posts %}
-          <li class="collection-item avatar">
-            {% assign date_format = site.minima.date_format | default: "%m/%d" %}
-            <div class="date-post">{{ post.date | date: date_format }}</div>
-            <span class="title"><a class="post-link"
-                                   href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
-            <p>
-              {{ post.content | truncatewords: 10 }}
-            </p>
-            <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
-          </li>
-          {% endfor %}
-        </ul>
-      </section>
-    </div>
-  </div>-->
-  <br>
-  <br>
-
-
-</div>
+</div>-->
