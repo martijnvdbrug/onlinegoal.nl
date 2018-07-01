@@ -19,6 +19,9 @@
     $(document).ready(function () {
       var url = new URL(window.location.href);
       var fullname = url.searchParams.get("van");
+      if (!fullname) {
+        fullname = 'John Doe'
+      }
       var firstname = fullname.split(' ')[0];
       var nospace = fullname.replace(/ /g, '').toLocaleLowerCase();
       console.log(firstname);
@@ -85,7 +88,7 @@
     </div>
     <div class="col-sm-12 col-md-6">
       <p>
-        Beheer je eigen portfolio makkelijk via Flickr. Geen programmeur meer nodig om je portfolio up-to-date te houden.
+        Beheer je eigen portfolio makkelijk via Flickr. Geen programmeur meer nodig om je portfolio up-to-date te houden!
       </p>
     </div>
     <div class="col-sm-12 col-md-6">
