@@ -15,7 +15,7 @@ permalink: /website-voorbeelden/
 
         {% for example in site.data.website_examples %}
         <li>
-          <img src="{{ example.img }}"> <!-- random image -->
+          <img src="{{ example.img }}" alt="{{ example.img-alt }}"> <!-- random image -->
           <div class="caption left-align">
             <div class="row">
               <div class="col s12 m6">
