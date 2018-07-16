@@ -6,7 +6,6 @@
 
 // Google Color Palette defined: http://www.google.com/design/spec/style/color.html
 
-
 $materialize-red: (
   "base":       #e51c23,
   "lighten-5":  #fdeaeb,
@@ -394,7 +393,6 @@ $colors: (
     color: $color_value !important;
   }
 }
-
 
 // usage: color("name_of_color", "type_of_color")
 // to avoid to repeating map-get($colors, ...)
